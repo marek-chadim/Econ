@@ -5,4 +5,4 @@
   - 🐔 Stockholm School of Economics 🇸🇪 / 🐦 IIES Stockholm University 🇸🇪
   - 🌐 MIT OpenCourseWare, AEA Continuing Education, NBER Summer Institute/Methods Lectures
 
-![diploma]([https://github.com/favicon.ico](https://drive.google.com/file/d/1y9Ki5jbXATgjRnsJfAU2chN2_lZR2CcH/view))
+![Bc Economic Theory]([https://github.com/favicon.ico](https://drive.google.com/file/d/1y9Ki5jbXATgjRnsJfAU2chN2_lZR2CcH/view)](https://drive.google.com/drive/folders/1bUNfKvhDdTVoRjqF0CoN5Lq6qvyDMXbq)
