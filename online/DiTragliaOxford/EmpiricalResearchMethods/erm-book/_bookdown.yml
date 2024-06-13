@@ -1,0 +1,9 @@
+book_filename: erm-book
+repo: https://github.com/fditraglia/erm-book/
+output_dir: docs
+delete_merged_file: yes
+language:
+  ui:
+    chapter_name: 'Lesson '
+  new_session: yes
+before_chapter_script: R/webex.R

@@ -1,0 +1,418 @@
+# Getting Started with `dplyr`
+
+This lesson and the next one will introduce you to some powerful tools for exploratory data analysis, using the [`gapminder` dataset](https://cran.r-project.org/web/packages/gapminder/index.html) as an example. Simple descriptive statistics can be extremely powerful. When you read a newspaper columnist arguing that $X$ is to blame for the massive change in $Y$, how often do you take a look at the data to see if $Y$ is *really changing at all*? Or if it's actually changing in the *opposite direction*? These are easy wins and we should make the most of them, particularly given that [many common misconceptions are *predictable*](https://upgrader.gapminder.org/). 
+
+Today we'll focus on basic data manipulation and summary statistics using the [`dplyr` package](https://dplyr.tidyverse.org/), part of the [Tidyverse](https://www.tidyverse.org/) family of R packages. We'll make heavy use of `dplyr` and other Tidyverse packages throughout these lessons. This lesson will only scratch the surface of `dplyr`, although we'll also pick up a few more `dplyr` tricks in later lessons as well. A good resource for learning more is [R for Data Science](https://r4ds.had.co.nz/). The [dplyr cheat sheet](https://github.com/rstudio/cheatsheets/blob/main/data-transformation.pdf) is also extremely helpful. 
+
+So what is `dplyr` and why should you use it? There are three popular toolkits for data manipulation in R. The first is so-called "base R." This simply means the built-in commands like `subset()` and operators like `[]`, `$`, and so on. You need to know base R and you'll end up using it frequently, but it's simply not a great tool for complicated data manipulation. If you wrangle your data using base R commands, your code will be complicated, hard to read, and hard to maintain. The two main alternatives are [`dplyr`](https://dplyr.tidyverse.org/) and [`data.table`](https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html). As you might expect, [opinions differ](https://stackoverflow.com/questions/21435339/data-table-vs-dplyr-can-one-do-something-well-the-other-cant-or-does-poorly) on which of these is the "better" choice. Having used and taught both packages, here's my summary of the pros and cons. The `data.table` package is *extremely fast*. If you routinely work with very large datasets (a million rows or more), it's worth learning `data.table`. But `data.table` syntax is a bit arcane, and can off-putting to newcomers. The key advantage of `dplyr` is that it's easy to learn and its syntax is *extremely intuitive and easy to read*. It also has many helpful features that `data.table` lacks. Given the importance of replicability and open science, this tips the balance in favor of `dplyr` for this book.
+
+
+## Package Installation 
+Before we can get started, you'll need to install two packages: `dplyr`, and `gapminder`. To do this, you can either click on the "Packages" tab in RStudio or use the command `install.packages()` at the R console, e.g. 
+```{r,eval=FALSE}
+install.packages('dplyr')
+install.packages('gapminder')
+```
+You only need to install a package *once*, but you need to *load* it every time you want to use it.
+To load a package, use the `library()` command, e.g.
+```{r, message = FALSE}
+library(dplyr)
+library(gapminder)
+```
+Now we're ready to go! I could tell you all about the data contained in `gapminder`, but an important part of this book is helping you to become self-sufficient. So instead I will leave this as an exercise for the reader!
+
+### Exercise
+After loading `gapminder` enter the command `?gapminder` in the R console to view the R help file for this dataset. Read the documentation you find there to answer the following questions: 
+
+1. How many rows and columns does `gapminder` contain?
+2. What information is contained in each row and column?
+3. What is the source of the data?
+
+
+## What is a tibble?
+The `dplyr` package uses a special operator called the *pipe*, written `%>%` to chain together commands called *verbs* that act on objects called *tibbles*. This probably sounds complicated, but it's easier that it looks. Over the next few sections we'll slowly unpack the preceding sentence by looking at a number of simple examples. But first things first: what is a tibble? Let's see what happens if we display the `gapminder` dataset:
+```{r}
+gapminder
+```
+If you're used to working with dataframes in R, this may surprise you. Rather than trying to print all `nrow(gapminder)` rows on the screen, R helpfully shows us a useful summary of the information contained in `gapminder`. This is because `gapminder` is *not* a dataframe; it's a *tibble*, often abbreviated *tbl*. For our purposes, all you really need to know about tibbles is that they are souped up versions of R dataframes that are designed to work seamlessly with `dplyr`. To learn more see the chapter "Tibbles" in [*R for Data Science*](https://r4ds.had.co.nz/tibbles.html).
+
+## Filter Rows with `filter`
+We're ready to learn our first `dplyr` verb: `filter` selects rows.
+Here's an example:
+```{r}
+gapminder %>% 
+  filter(year == 2007)
+```
+Compare the results of running this command to what we got when we typed `gapminder` into the console above.
+Rather than displaying the whole dataset, now R is only showing us the 142 rows for which the column `year` has a value of `2007`.
+So how does this work? The pipe operator `%>%` "pipes" the tibble `gapminder` into the function `filter()`. The argument `year == 2007` tells `filter()` that it should find all the rows such that the logical condition `year == 2007` is `TRUE`.
+
+Oh no! Have we accidentally deleted all of the other rows of `gapminder`?
+No: we haven't made any changes to `gapminder` at all.
+If you don't believe me try entering `gapminder` at the console.
+All that this command does is *display* a subset of `gapminder`.
+If we wanted to store the result of running this command, we'd need to assign it to a variable, for example
+```{r}
+gapminder2007 <- gapminder %>% 
+  filter(year == 2007)
+gapminder2007
+```
+We can also use `filter` to subset on two or more variables.
+For example, here we display data for the US in 2007:
+```{r}
+gapminder %>% 
+  filter(year == 2007, country == 'United States')
+```
+Notice that I always put a linebreak after the pipe operator `%>%` in my code examples. This isn't required to make the code run, but it's a good habit. As we start to write longer and more complicated `dplyr` commands, linebreaks will make it much easier to understand how our code works.
+
+### Exercises
+1. What is the difference between `x = 3` and `x == 3` in R?
+`r hide("Show Solution")`
+The first assigns the value `3` to the variable `x`; the second tests whether `x` is equal to `3` and returns either `TRUE` or `FALSE`.
+`r unhide()`
+2. Write code that uses `filter` to choose the subset of `gapminder` for which `year` is 2002.
+```{r webex.hide="Show Solution"}
+gapminder %>% filter(year == 2002)
+```
+3. When I displayed data for the US in 2007, I put quotes around `United States` but not around `year`. Why?
+`r hide("Show Solution")`
+This is because `year` contains numeric data while `country` contains character data, aka string data.
+`r unhide()`
+4. If you instead try to choose the subset with `year` equal to 2005, something will go wrong. Try it. What happens and why? 
+`r hide("Show Solution")`
+If you go back to the help file for `gapminder` you'll see that it only contains data for every fifth year. The year 2005 isn't in our dataset so `dplyr` will display an empty tibble:
+```{r}
+gapminder %>% 
+  filter(year == 2005)
+```
+`r unhide()`
+5. Write code that stores the data for Asian countries in a tibble called `gapminder_asia`. Then display this tibble. 
+```{r webex.hide="Show Solution"}
+gapminder_asia <- gapminder %>% 
+  filter(continent == 'Asia')
+gapminder_asia
+```
+5. Which country had the higher life expectancy in 1977: Ireland or Brazil?
+Which had the higher GDP per capita?
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  filter(year == 1977, country %in% c('Ireland', 'Brazil'))
+```
+
+## Sort data with `arrange`
+Suppose we wanted to sort `gapminder` by `gdpPercap`.
+To do this we can use the `arrange` command along with the pipe `%>%` as follows:
+```{r}
+gapminder %>% 
+  arrange(gdpPercap)
+```
+The logic is very similar to what we saw above for `filter`. We pipe the tibble `gapminder` into the function `arrange()`. The argument `gdpPercap` tells `arrange()` that we want to sort by GDP per capita. Note that by default `arrange()` sorts in *ascending order*. If we want to sort in *descending* order, we use the function `desc()` as follows:
+```{r}
+gapminder %>% arrange(desc(gdpPercap))
+```
+
+### Exercises 
+1. What is the lowest life expectancy in the `gapminder` dataset? Which country and year does it correspond to?
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  arrange(lifeExp)
+```
+2. What is the highest life expectancy in the `gapminder` dataset? Which country and year does it correspond to?
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  arrange(desc(lifeExp))
+```
+
+
+## Choose columns with `select`
+We use the `select` verb to choose a subset of columns.
+For example, to display only `pop`, `country`, and `year`, we would write
+```{r}
+gapminder %>% 
+  select(pop, country, year)
+```
+Now suppose that we wanted to select every column *except* `pop`. 
+Here's one way to do it:
+```{r}
+gapminder %>% 
+  select(country, continent, year, lifeExp, gdpPercap)
+```
+but that takes a lot of typing! If there were more than a handful of columns in our tibble it would be very difficult to *deselect* a column in this way.
+Fortunately there's a shortcut: use the minus sign 
+```{r}
+gapminder %>% select(-pop)
+```
+Just as we could when *selecting*, we can *deselect* multiple columns by separating their names with a comma:
+```{r}
+gapminder %>% select(-pop, -year)
+```
+
+It's easy to mix up the `dplyr` verbs `select` and `filter`.
+Here's a handy mnemonic: `filteR` filters Rows while `seleCt` selects Columns. 
+Suppose we wanted to select only the column `pop` from `gapminder`.
+
+### Exercise
+1. Select only the columns `year`, `lifeExp`, and `country` in `gapminder`.
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  select(year, lifeExp, country)
+```
+2. Select all the columns *except* `year`, `lifeExp`, and `country` in `gapminder`.
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  select(-year, -lifeExp, -country)
+```
+
+
+
+## The `summarize` verb
+Suppose we want to calculate the sample mean of the column `lifeExp` in `gapminder`.
+We can do this using the `summarize` verb as follows:
+```{r}
+gapminder %>% summarize(mean_lifeExp = mean(lifeExp))
+```
+Note the syntax: within `summarize` we have an *assignment statement*.
+In particular, we assign `mean(lifeExp)` to the variable `mean_lifeExp`.
+The key thing to know about `summarize` is that it always returns *collapses* a tibble with many rows into a single row.
+When we think about computing a sample mean, this makes sense: we want to summarize the column `lifeExp` as a single number.
+It doesn't actually make much sense to compute the mean of `lifeExp` because this involves averaging over different countries *and* different years.
+Instead let's compute the mean for a single year: 1952:
+```{r}
+gapminder %>% 
+  filter(year == 1952) %>%
+  summarize(mean_lifeExp = mean(lifeExp))
+```
+
+We can use summarize to compute multiple summary statistics for a single variable, the same summary statistic for multiple variables, or both:
+```{r}
+gapminder %>% 
+  filter(year == 1952) %>%
+  summarize(mean_lifeExp = mean(lifeExp),
+            sd_lifeExp = sd(lifeExp), 
+            mean_pop = mean(pop))
+```
+Note that if we *don't* explicitly use an assignment statement, R will make up names for us based on the commands that we used:
+```{r}
+gapminder %>% 
+  filter(year == 1952) %>%
+  summarize(mean(lifeExp), median(lifeExp), max(lifeExp))
+```
+
+
+### Exercise
+1. Use `summarize` to compute the 75th percentile of life expectancy in 1977.
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  filter(year == 1977) %>%
+  summarize(quantile(lifeExp, 0.75))
+```
+2. Use `summarize` to compute the 75th percentile of life expectancy among Asian countries in 1977.
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  filter(year == 1977, continent == 'Asia') %>%
+  summarize(quantile(lifeExp, 0.75))
+```
+
+
+## The `group_by` verb
+The true power of `summarize` is its ability to compute grouped summary statistics in combination with another `dplyr` verb: `group_by`.
+In essence, `group_by` allows us to tell `dplyr` that we don't want to work with the whole dataset at once; rather we want to work with particular *subsets* or groups.
+The basic idea is similar to what we've done using `filter` in the past.
+For example, to calculate mean population (in millions) and mean life expectancy in the year 2007, we could use the following code:
+```{r}
+gapminder %>%
+  filter(year == 2007) %>%
+  summarize(meanPop = mean(pop) / 1000000, meanLifeExp = mean(lifeExp))
+```
+Using `group_by` we could do the same thing for *all* years in the dataset at once:
+```{r}
+gapminder %>%
+  group_by(year) %>%
+  summarize(meanPop = mean(pop) / 1000000, meanLifeExp = mean(lifeExp))
+```
+Notice what has changed in the second code block: we replaced `filter(year == 2007)` with `group_by(year)`.
+This tells `dplyr` that, rather than simply restricting attention to data from 2007, we want to form *subsets* (groups) of the dataset that correspond to the values of the `year` variable.
+Whatever comes after `group_by` will then be calculated for these subsets.
+
+Here's another example.
+Suppose we wanted to calculate mean life expectancy and total population in each *continent* during the year 2007.
+To accomplish this, we can chain together the `filter`, `group_by` and `summarize` verbs as follows:
+```{r}
+gapminder %>% 
+  filter(year == 2007) %>%
+  group_by(continent) %>%
+  summarize(meanPop = mean(pop) / 1000000, meanLifeExp = mean(lifeExp))
+```
+
+We can also use `group_by` to subset over multiple variables at once.
+For example, to calculate mean life expectancy and total population in each continent *separately* for every year, we can use the following code:
+```{r}
+gapminder %>% 
+  group_by(year, continent) %>%
+  summarize(meanPop = mean(pop) / 1000000, meanLifeExp = mean(lifeExp))
+```
+
+### Exercise
+1. Why doesn't the following code work as expected?
+```{r,eval = FALSE}
+gapminder %>%
+  summarize(meanLifeExp = mean(lifeExp)) %>%
+  group_by(year)
+```
+`r hide("Show Solution")`
+The steps are carried out in the wrong order: we need to form groups *first* and then calculate our desired summaries.
+`r unhide()`
+2. Calculate the median GDP per capita in each continent in 1977.
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  filter(year == 1977) %>%
+  group_by(continent) %>%
+  summarize(medGDPc = median(gdpPercap))
+```
+3. Repeat 2. but sort your results in descending order.
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  filter(year == 1977) %>%
+  group_by(continent) %>%
+  summarize(medGDPc = median(gdpPercap)) %>%
+  arrange(desc(medGDPc))
+```
+4. Calculate the mean and standard deviation of life expectancy for separately for each continent in every year *after* 1977. Sort your results in ascending order by the standard deviation of life expectancy.
+`r hide("Show Solution")`
+```{r webex.hide="Show Solution"}
+gapminder %>% 
+  filter(year > 1977) %>%
+  group_by(continent, year) %>%
+  summarize(meanGDPc = mean(gdpPercap), sdGDPc = sd(gdpPercap)) %>%
+  arrange(sdGDPc)
+```
+
+
+## Understanding the pipe: `%>%`
+Let's revisit the pipe, `%>%`, that we've used in the code examples above.
+I told you that the command `gapminder %>% filter(year == 2007)` "pipes" the tibble `gapminder` into the function `filter()`.
+But what exactly does this mean?
+Take a look at the R help file for the `dplyr` function `filter`.
+We see that `filter()` takes something called `.data` as its first argument.
+Moving on to the "Arguments" section of the help file, we see that `.data` is "A tbl" i.e. a tibble.
+To better understand what this means, let's try using `filter` *without* the pipe:
+```{r}
+filter(gapminder, year == 2007, country == 'United States')
+```
+Notice that this gives us *exactly* the same result as
+```{r}
+gapminder %>% 
+  filter(year == 2007, country == 'United States')
+```
+In other words __*The pipe is gives us an alternative way of supplying the first argument to a function*__.
+Let's try this with a more familiar R function: `mean`.
+The first argument of `mean` is a vector `x`. 
+So let's try using the pipe to compute the mean of some data:
+```{r}
+x <- c(1, 5, 2, 7, 2)
+x %>% mean
+```
+The pipe supplies a function with its *first* argument.
+If we want to specify additional arguments, we need to do so within the function call itself.
+For example, here's how we could use the pipe to compute the mean after dropping missing observations:
+```{r}
+y <- c(1, 5, NA, 7, 2)
+y %>% 
+  mean(na.rm = TRUE)
+```
+One important note about the pipe: it's *not* a base R command.
+Instead it's a command provided by the package `Magrittr`.
+(If you're familiar with the Belgian painter Magritte, you may realize that the name of this package is quite witty!)
+This package is installed automatically along with `dplyr`.
+
+### Exercise
+
+1. Write R code that uses the pipe to calculate the sample variance of `z <- c(4, 1, 5, NA, 3)` excluding the missing observation from the calculation.
+```{r webex.hide="Show Solution"}
+z <- c(4, 1, 5, NA, 3)
+z %>% var(na.rm = TRUE)
+```
+2. Write code to arrange `gapminder` by `lifeExp`, first in increasing order and then in decreasing order, *without* using the pipe.
+```{r webex.hide="Show Solution"}
+arrange(gapminder,lifeExp)
+arrange(gapminder, desc(lifeExp))
+```
+
+
+## Chaining commands
+In the examples we've looked at so far, the pipe doesn't seem all that useful: it's just an alternative way of specifying the first argument to a function.
+The true power and convenience of the pipe only becomes apparent we need to *chain* a series of commands together.
+For example, suppose we wanted to display the 1952 data from `gapminder` sorted by `gdpPercap` in descending order.
+Using the pipe, this is easy:
+```{r}
+gapminder %>% 
+  filter(year == 1952) %>% 
+  arrange(desc(gdpPercap))
+```
+Notice how I split the commands across multiple lines.
+This is good practice: it makes your code much easier to read.
+So what's happening when we chain commands in this way? 
+The first step in the chain `gapminder %>% filter(year == 1952)` returns a tibble: the subset of `gapminder` for which `year` is `1952`.
+The next step `%>% arrange(gdpPercap)`  pipes this *new* tibble into the function `arrange()`, giving us the desired result.
+I hope you agree with me that this is pretty intuitive: even if we didn't know anything about `dplyr` we could *almost* figure out what this code is supposed to do.
+In stark contrast, let's look at the code we'd have to use if we wanted to accomplish the same task *without* using the pipe:
+```{r}
+arrange(filter(gapminder, year == 1952), 
+        desc(gdpPercap))
+```
+There are may reasons why this code is harder to read, but the most important one is that the commands `arrange` and `filter` have to appear in the  code in the *opposite* of the order in which they are actually being carried out.
+This is because parentheses are evaluated from *inside to outside*.
+This is what's great about the pipe: it lets us write our code in a way that accords with the actual order of the steps we want to carry out.
+
+### Exercise 
+
+1. What was the most populous European country in 1992? Write appropriate `dplyr` code using the pipe to display the information you need to answer this question.
+```{r webex.hide="Show Solution"}
+gapminder %>%
+  filter(year == 1992, continent == 'Europe') %>%
+  arrange(desc(pop))
+```
+2. Re-write your code from part 1. *without* using the pipe. 
+```{r webex.hide="Show Solution"}
+arrange(filter(gapminder, year == 1992, continent == 'Europe'), desc(pop))
+```
+
+## Change an existing variable or create a new one with `mutate`
+It's a little hard to read the column `pop` in `gapminder` since there are so many digits.
+Suppose that, instead of raw population, we wanted to display population *in millions*.
+This requires us to `pop` by `1000000`, which we can do using the function `mutate()` from `dplyr` as follows:
+```{r}
+gapminder %>% 
+  mutate(pop = pop / 1000000)
+```
+Note the syntax here: within `mutate()` we have an assignment statement, namely `pop = pop / 1000000`. 
+This tells R to calculate `pop / 1000000` and assign the result to `pop`, in place of the original variable.
+
+We can also use `mutate()` to create a new variable.
+The `gapminder` dataset doesn't contain overall GDP, only GDP per capita.
+To calculate GDP, we need to multiply `gdpPercap` by `pop`.
+But wait! 
+Didn't we just change pop so it's expressed in millions?
+No: we never *stored* the results of our previous command, we simply displayed them.
+Just as I discussed above, unless you *overwrite* it, the original `gapminder` dataset will be unchanged.
+With this in mind, we can create the `gdp` variable as follows:
+```{r}
+gapminder %>% 
+  mutate(gdp = pop * gdpPercap)
+```
+
+### Exercise 
+
+1. Explain why we used `=` rather than `==` in the `mutate()` examples above.   
+`r hide("Show Solution")`
+We used `=` because we're carrying out an *assignment operation*. In contrast `==` tests for equality, returning `TRUE` or `FALSE`.
+`r unhide()`
+2. Calculate life expectancy *in months* and use it to answer the following question: "which country in the Americas had the shortest life expectancy *in months* in the year 1962?" 
+```{r webex.hide="Show Solution"}
+gapminder %>%
+  mutate(lifeExpMonths = 12 * lifeExp) %>%
+  filter(year == 1962, continent == 'Americas') %>%
+  arrange(lifeExpMonths)
+```
+
+
