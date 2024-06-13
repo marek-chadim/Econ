@@ -1,0 +1,6 @@
+"0","thresh <- 1e-7"
+"0","rel_err <- 1"
+"0","iter <- 0"
+"0","ismiss <- is.na(Xna)"
+"0","mssold <- mean((scale(Xna, xbar, FALSE)[!ismiss])^2)"
+"0","mss0 <- mean(Xna[!ismiss]^2)"

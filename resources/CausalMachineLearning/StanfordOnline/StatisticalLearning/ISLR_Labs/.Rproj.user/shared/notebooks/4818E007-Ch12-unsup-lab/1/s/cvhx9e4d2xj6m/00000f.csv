@@ -1,0 +1,7 @@
+"0","nomit <- 20"
+"0","set.seed(15)"
+"0","ina <- sample(seq(50), nomit)"
+"0","inb <- sample(1:4, nomit, replace = TRUE)"
+"0","Xna <- X"
+"0","index.na <- cbind(ina, inb)"
+"0","Xna[index.na] <- NA"

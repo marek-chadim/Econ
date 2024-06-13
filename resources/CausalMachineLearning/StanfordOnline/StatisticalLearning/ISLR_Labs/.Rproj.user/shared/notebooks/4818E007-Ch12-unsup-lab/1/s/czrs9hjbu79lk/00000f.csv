@@ -1,0 +1,1 @@
+"0","pr.out <- prcomp(nci.data, scale = TRUE)"

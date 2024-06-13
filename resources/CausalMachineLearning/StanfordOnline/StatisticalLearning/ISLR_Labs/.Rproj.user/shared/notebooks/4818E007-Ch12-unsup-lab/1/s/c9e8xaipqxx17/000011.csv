@@ -1,0 +1,3 @@
+"0","plot(hclust(data.dist, method = ""average""),"
+"0","    labels = nci.labs, main = ""Average Linkage"","
+"0","    xlab = """", sub = """", ylab = """")"

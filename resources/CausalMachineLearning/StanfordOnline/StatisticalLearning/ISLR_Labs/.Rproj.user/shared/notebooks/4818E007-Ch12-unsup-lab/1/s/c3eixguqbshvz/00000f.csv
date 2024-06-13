@@ -1,0 +1,1 @@
+"0","pr.out <- prcomp(USArrests, scale = TRUE)"

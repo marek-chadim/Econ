@@ -1,0 +1,4 @@
+"0","#par(mfrow = c(1, 2))"
+"0","plot(x, col = (km.out$cluster + 1),"
+"0","    main = ""K-Means Clustering Results with K = 2"","
+"0","    xlab = """", ylab = """", pch = 20, cex = 2)"

@@ -1,0 +1,2 @@
+"0","plot(cumsum(pve), type = ""o"", ylab = ""Cumulative PVE"","
+"0","    xlab = ""Principal Component"", col = ""brown3"")"

@@ -1,0 +1,5 @@
+"0","fit.Center <- survfit(Surv(y, failed) ~ Center,"
+"0","    data = queuing$data)"
+"0","plot(fit.Center, xlab = ""Seconds"","
+"0","    ylab = ""Probability of Still Being on Hold"","
+"0","    col = c(2, 4, 5))"

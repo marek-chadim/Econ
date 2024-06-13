@@ -1,0 +1,4 @@
+"0","pve <- 100 * pr.out$sdev^2 / sum(pr.out$sdev^2)"
+"0","par(mfrow = c(1, 2))"
+"0","plot(pve,  type = ""o"", ylab = ""PVE"","
+"0","    xlab = ""Principal Component"", col = ""blue"")"

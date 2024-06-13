@@ -1,0 +1,7 @@
+"0","fit.svd <- function(X, M = 1) {"
+"0","   svdob <- svd(X)"
+"0","   with(svdob,"
+"0","       u[, 1:M, drop = FALSE] %*%"
+"0","       (d[1:M] * t(v[, 1:M, drop = FALSE]))"
+"0","     )"
+"0","}"
