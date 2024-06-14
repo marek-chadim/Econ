@@ -1,0 +1,2 @@
+# CausalML
+- An introduction to the emerging fusion of machine learning and causal inference. The book introduces ideas from classical structural equation models (SEMs) and their modern AI equivalent, directed acyclical graphs (DAGs) and structural causal models (SCMs), and presents Debiased Machine Learning methods to do inference in such models using modern predictive tools.
