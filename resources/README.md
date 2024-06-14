@@ -10,4 +10,4 @@ links in subdirectories
 - Contemporary tools for data analysis: broad and less technical treatment of key topics in statistical learning.
   
 ### CausalML
-- SEMs, DAGs and SCMs + Debiased Machine Learning methods for inference in such models using modern predictive tools.
+- SEMs, DAGs and SCMs + Debiased Machine Learning methods for inference in models using modern predictive tools.
