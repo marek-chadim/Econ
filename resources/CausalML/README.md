@@ -1,6 +1,6 @@
 
 - <https://causalml-book.org>
 - <https://stanford-msande228.github.io/winter24>
-- [DufloNBER](https://www.youtube.com/playlist?list=PLxq_lXOUlvQAoWZEqhRqHNezS30lI49G)
-- [StanfordGSB](https://www.youtube.com/watch?v=229ojzU1-0U&list=PLjzPdttd_sxFEwgDWR0jspg7CTV5mBxzl)
-- [ChicagoBooth](https://www.nber.org/conferences/si-2018-development-economics)
+- [DufloNBER lecture](https://www.nber.org/lecture/2018-masters-lecture-esther-duflo-meet-randomistas-useful-ml-tools-empirical-researchers)
+- [StanfordGSB course](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course)
+- [ChicagoBooth playlist](https://www.youtube.com/playlist?list=PLjzPdttd_sxFEwgDWR0jspg7CTV5mBxzl)
