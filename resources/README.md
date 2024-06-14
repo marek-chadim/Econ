@@ -4,10 +4,10 @@ links in subdirectories
 - Videorecordings by Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale) + slides from Kirill Borusyak (UC Berkley) and Peter Hull (Brown) + extra notes from teachers at MIT (dated) and from Paolo Zachia and Štěpán Jurajda at CERGE-EI (recent) + Bruce Hansen's Econometrics 2021 textbook, data and programs 
 
 ### MasteringMetrics 
-- Do smaller classes increase learning? Should wife batterers be arrested? How much does education raise wages?  Applied econometrics let data speak.
+- Applied econometrics: Do smaller classes increase learning? Should wife batterers be arrested? How much does education raise wages?  
 
 ### StatLearning 
-- Broad and less technical treatment of key topics in statistical learning: contemporary tools for data analysis.
+- Contemporary tools for data analysis: broad and less technical treatment of key topics in statistical learning.
   
 ### CausalML
-- Debiased Machine Learning methods to do inference using modern predictive tools.
+- Debiased Machine Learning methods for inference using modern predictive tools.
