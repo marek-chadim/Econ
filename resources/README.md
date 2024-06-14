@@ -1,4 +1,4 @@
-links in subdirectories:
+links in subdirectories
 
 ### MasteringMetrics 
 - Do smaller classes increase learning? Should wife batterers be arrested? How much does education raise wages?  Allow the data to speak with basic tools of applied econometrics.
