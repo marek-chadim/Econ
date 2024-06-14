@@ -10,4 +10,4 @@ links in subdirectories:
 - Ideas from classical structural equation models (SEMs) and their modern AI equivalent, directed acyclical graphs (DAGs) and structural causal models (SCMs), and Debiased Machine Learning methods to do inference in such models using modern predictive tools.
 
 ### PhD
-- Videorecorded courses by Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale) + slides from Kirill Borusyak (UC Berkley) and Peter Hull (Brown) + accompanying notes from MIT teachers at OpenCourseware CERGE-EI: Paolo Zachia and Štěpán Jurajda +  textbook data and programs from Bruce Hansen's Econometrics textbook
+- Videorecorded courses by Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale) + slides from Kirill Borusyak (UC Berkley) and Peter Hull (Brown) + extra notes from MIT teachers at OpenCourseware CERGE-EI: Paolo Zachia and Štěpán Jurajda +  textbook data and programs from Bruce Hansen's Econometrics textbook
