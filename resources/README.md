@@ -8,5 +8,5 @@
 ### CausalML
 - Ideas from classical structural equation models (SEMs) and their modern AI equivalent, directed acyclical graphs (DAGs) and structural causal models (SCMs), and Debiased Machine Learning methods to do inference in such models using modern predictive tools.
 
-### PhD courses
-- Lecture slides, problem sets and recorded lectures by Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale) + miscellaneous
+### PhD
+- Videorecorded courses by Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale) + slides from Kirill Borusyak (UC Berkley) and Peter Hull (Brown) + accompanying notes from MIT OpenCourseware and Paolo Zachia and Štěpán Jurajda at CERGE-EI +  textbook data and programs from Bruce Hansen's Econometrics textbook
