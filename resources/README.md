@@ -3,7 +3,7 @@ links in subdirectories
 ### CausalML
 - SEMs, DAGs and SCMs + Debiased Machine Learning methods for inference in models using modern predictive tools.
 
-### StatLearning 
+### IntroStatLearning 
 - Broad and less technical treatment of key topics in statistical learning. Contemporary tools for data analysis.
   
 ### MasteringMetrics 
