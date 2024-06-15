@@ -1,18 +1,18 @@
 links in subdirectories
 
-### PhD 
-- recordings 2021: Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale)
-- textbook 2021: Bruce Hansen (University of Wisconsin-Madison)
-- slides 2024: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
-- notes 2024: Paolo Zachia & Štěpán Jurajda (CERGE-EI)
+### Open Graduate Education 
+- 2021 recordings: Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale)
+-  2022 textbook, data and programs: Bruce Hansen (University of Wisconsin) 
+- 2024 slides: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
+- 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI)
 
-### Mastering Mostly Harmless Econometrics 2020 
+### 2020 Mastering Mostly Harmless Econometrics
 Joshua D. Angrist, Alberto Abadie, and Christopher Walters
 
-### An Introduction to Statistical Learning 2023
+### 2023 An Introduction to Statistical Learning 
 James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
 
-### Applied Causal Inference Powered by ML and AI 2024
+### 2024 Applied Causal Inference Powered by ML and AI 
 Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.
 
   
