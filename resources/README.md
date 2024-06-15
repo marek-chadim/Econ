@@ -1,4 +1,3 @@
-links in subdirectories
 
 ### Open Graduate Education 
 - 2021 recordings: Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale)
