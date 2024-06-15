@@ -5,6 +5,7 @@ links in subdirectories
 - 2022 textbook, data and programs: Bruce Hansen (University of Wisconsin) 
 - 2024 slides: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI)
+- workshops, organized by Scott Cunningham: <https://github.com/Mixtape-Sessions>
   
 ### 2020  Mostly Harmless + 2024 Empirical Bayes
 Joshua D. Angrist, Alberto Abadie, and Christopher Walters
@@ -16,5 +17,5 @@ James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
 Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.
 
   
-+ frontier research workshops, organized by Scott Cunningham, at <https://github.com/Mixtape-Sessions>
+
 
