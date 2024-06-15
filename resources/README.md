@@ -6,7 +6,7 @@ links in subdirectories
 - 2024 slides: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI)
 
-code: <https://github.com/Mixtape-Sessions> Scott Cunningham + researchers working on the frontier
+frontier research code: <https://github.com/Mixtape-Sessions> organized by Scott Cunningham  
   
 ### 2020  Mostly Harmless + 2024 Empirical Bayes
 Joshua D. Angrist, Alberto Abadie, and Christopher Walters
