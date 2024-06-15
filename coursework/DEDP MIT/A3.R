@@ -4,7 +4,7 @@ library("tidyverse")
 library(stringr)
 # Set working directory here
 # Question 1
-gender_data<-as_tibble(read.csv("assignments/Gender_StatsData.csv"))
+gender_data<-as_tibble(read.csv("analysis/Gender_StatsData.csv"))
 # Question 2
 head(gender_data)
 # Question 3
@@ -43,7 +43,7 @@ ggplot(histdata_twoyears, aes(x=FertilityRate)) +
                  color="darkred", fill="red", alpha=0.2) + 
   geom_histogram(data=subset(histdata_twoyears, Year=="X2000"), 
                  color="darkblue", fill="blue", alpha=0.2) 
-ggsave("assignments/hist.png")
+ggsave("analysis/hist.png")
 
 #Question 20
 ggplot(histdata_twoyears, aes(x=FertilityRate, group=Year, color=Year, alpha=0.2)) +        geom_histogram(aes(y=..density..)) +
@@ -56,7 +56,6 @@ rm(list=ls())
 library("utils")
 #install.packages('plot3D')
 library(plot3D)
-setwd()
 
 #Creating the vector x and y
 M <- mesh(seq(0,1,length=100), seq(0,1,length=100))
@@ -75,7 +74,7 @@ cdfy <- 6/5 * (1/2*y+y^3/3)
 cdfx <- 6/5*(1/3*x+x^2/2)
 
 #Plotting cdf
-pdf("cumulative.pdf")
+pdf("analysis/cumulative.pdf")
 plot(x, cdfx, type = "l", col="blue", xlab=" ", ylab = "Cumulative Probability", xlim=c(0,1), main="CDF plot")
 lines(y, cdfy, lty=2, col="red", lwd=2)
 legend("bottomright", ncol=1, legend = c("X", "Y"), lty=c(1,2), col=c("blue", "red"))
