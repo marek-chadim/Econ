@@ -7,8 +7,6 @@
 
 ### Mixtape-Session
 frontier workshops organized by Scott Cunningham: <https://github.com/Mixtape-Sessions> 
-- Design-Based Inference Mixtape Session taught by Peter Hull
-- Machine Learning and Heterogeneous Effects taught by Brigham Frandsen
   
 ### 2020  Mostly Harmless + 2024 Empirical Bayes
 Joshua D. Angrist, Alberto Abadie, and Christopher Walters
