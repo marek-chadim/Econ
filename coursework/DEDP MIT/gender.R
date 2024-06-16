@@ -4,10 +4,10 @@ library(lattice)
 library(dplyr)
 
 # Set workspace
-setwd("development")
+setwd("data")
 
 # Load the data
-teaData <- read.csv(file="data/tea_data.csv")
+teaData <- read.csv(file="tea_data.csv")
 colnames(teaData)
 
 # Create dummies and interaction term for tea sown and post period

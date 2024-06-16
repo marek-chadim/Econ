@@ -1,13 +1,13 @@
-#install.packages("dummies")
+install.packages("dummies")
 #install.packages("AER")
 library(dummies)
 library(AER)
 
 # Set workspace
-setwd("development")
+setwd("data")
 
 # Read in the data
-data <- read.csv("data/inpres_data.csv")
+data <- read.csv("inpres_data.csv")
 
 # OLS regression
 summary(lm(log_wage~education, data=data))
@@ -34,8 +34,8 @@ summary(lm(log_wage~exp_int+exposed+high_intensity, data=data))
 summary(ivreg(log_wage~education+exposed+high_intensity|exp_int+exposed+high_intensity, data=data))
 
 # Better instrument and controls
-rgns <- dummy(data$birth_region)
-byrs <- dummy(data$birth_year)
+rgns <- fixest::to_integer(data$birth_region)
+byrs <- fixest::to_integer(data$birth_year)
 ivdat <- data.frame(rgns,byrs)
 ivdat$log_wage <- data$log_wage
 ivdat$education <- data$education

@@ -1,8 +1,8 @@
 # Set workspace
-setwd("development")
+setwd("data")
 
 # Read in the data
-data <- read.csv("data/nutrition_csv.csv")
+data <- read.csv("nutrition_csv.csv")
 colnames(data)
 
 # Number of obs per pupil

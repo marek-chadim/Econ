@@ -1,7 +1,7 @@
 # Set workspace
-setwd("development")
+setwd("data")
 # Read in the data
-data <- read.csv("data/wb_dev_ind.csv")
+data <- read.csv("wb_dev_ind.csv")
 # Create illiteracy rates
 data$illiteracy_female = 100 - data$literacy_female
 data$illiteracy_male   = 100 - data$literacy_male

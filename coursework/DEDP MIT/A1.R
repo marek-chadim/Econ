@@ -26,7 +26,7 @@ age[!is.na(age)]
 #Question 17
 library(tidyverse)
 
-papers <- as_tibble(read_csv("analysis/CitesforSara.csv"))
+papers <- as_tibble(read_csv("data/CitesforSara.csv"))
 
 papers_select <- select(papers, journal,year,cites,title,au1)
 
