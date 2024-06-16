@@ -1,11 +1,11 @@
 
-# Open Graduate Education 
+### Open Graduate Education 
 - 2021 recordings: Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale)
 - 2022 textbook, data and programs: Bruce Hansen (University of Wisconsin) 
 - 2024 slides: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI)
 
-## Mixtape-Session
+### Mixtape-Session
 frontier workshops organized by Scott Cunningham: <https://github.com/Mixtape-Sessions> 
 - Design-Based Inference Mixtape Session taught by Peter Hull
 - Machine Learning and Heterogeneous Effects taught by Brigham Frandsen
