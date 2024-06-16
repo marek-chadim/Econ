@@ -1,6 +1,4 @@
-install.packages("dummies")
 #install.packages("AER")
-library(dummies)
 library(AER)
 
 # Set workspace
@@ -33,14 +31,3 @@ summary(lm(log_wage~exp_int+exposed+high_intensity, data=data))
 # IV version
 summary(ivreg(log_wage~education+exposed+high_intensity|exp_int+exposed+high_intensity, data=data))
 
-# Better instrument and controls
-rgns <- fixest::to_integer(data$birth_region)
-byrs <- fixest::to_integer(data$birth_year)
-ivdat <- data.frame(rgns,byrs)
-ivdat$log_wage <- data$log_wage
-ivdat$education <- data$education
-ivdat$exp_nsch <- data$exposed * data$num_schools
-ivdat$ch_exp <- data$children71 * data$exposed
-
-# IV Regression
-ivreg(log_wage~.-exp_nsch|.-education,data=ivdat)
