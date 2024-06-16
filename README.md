@@ -4,7 +4,7 @@
      - MIT’s MicroMasters in Data, Economics, and Design of Policy (audit track)
 
  ### perspective
- - Journal of Economic Perspectives: Econometrics + John Bates Clark Medal, Nobel Prize Lectures  
+ - Journal of Economic Perspectives: Econometrics Symposia + John Bates Clark Medalists, Nobel Prize Lectures  
   
  ### resources
  - GitHub, MIT OpenCourseWare, AEA Continuing Education, NBER Summer Institute/Methods Lectures
