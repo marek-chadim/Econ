@@ -9,7 +9,7 @@
  - Nobel Prize Lectures  
   
  ### resources
- - GitHub, Youtube
+ - GitHub, YouTube
  - MITxOnline, MIT OpenCourseWare
  - AEA Continuing Education
  - NBER Summer Institute/Methods Lectures
