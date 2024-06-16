@@ -7,5 +7,4 @@
  - Journal of Economic Perspectives: Econometrics Symposia, John Bates Clark Medalists, Nobel Prize Lectures  
   
  ### resources
- - GitHub, YouTube, MITxOnline, MIT OpenCourseWare
- - AEA Continuing Education, NBER Summer Institute/Methods Lectures
+ - GitHub, MITxOnline + OpenCourseWare, AEA Continuing Education, NBER Summer Institute/Methods Lectures
