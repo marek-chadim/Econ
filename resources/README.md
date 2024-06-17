@@ -5,6 +5,13 @@
 - 2024 slides: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI)
 
+[Baum Stata](https://ideas.repec.org/p/boc/bocoec/612.html) 
+A little bit of Stata programming goes a long
+way... to emphasize the sizable return on investment to human capital of this
+nature. Learn how to use Stata effectively, and you will save yourself time
+and avoid the grief of retracing many steps through a less well-constructed
+research procedure.
+
 ### Mixtape-Session
 frontier workshops organized by Scott Cunningham: <https://github.com/Mixtape-Sessions> 
   
