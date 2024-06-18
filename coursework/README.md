@@ -6,14 +6,15 @@
 - online
     - MITx MicroMasters (audit track)
         - [Data, Economics, and Development Policy](https://micromasters.mit.edu/dedp/)
+          - with OCW notes on Econometrics and recordings on Developments Economics 
         - [Statistics and Data Science](https://micromasters.mit.edu/ds/)
-          
+            - with full OCW course 18.06 on Linear Algebra
+  
    - certificates
         - [Data Science](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) Johns Hopkins University
         - [Machine Learning](https://www.coursera.org/account/accomplishments/specialization/T3Y6ZZBX5LHU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n) Stanford University
 
     - courses
-        - [MIT OpenCourseWare](https://ocw.mit.edu/search/) Linear Algebra, Developmnet Economics + Econometrics (notes)
         - [Probability](https://projects.iq.harvard.edu/stat110/home), [Big Data](https://opportunityinsights.org/course/), [Public Economics](https://rajchetty.com/research/public-economics-lectures-2nd-year-ph-d-course/) Harvard
         - Causal Inference [University of Pennsylvania](https://coursera.org/share/b7ff2f515ab40d5f9f9ec54819c04de2) and [Columbia University](https://www.coursera.org/account/accomplishments/verify/SV2NYCC322FZ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course) 
     
