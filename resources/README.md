@@ -1,5 +1,5 @@
 
-### lecture recordings🍿
+### recordings
 
 econometrics
 - [Probability](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo), Joe Blitzstein (Harvard University)
