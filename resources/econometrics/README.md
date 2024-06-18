@@ -1,11 +1,11 @@
 
-### Open Graduate Education 
+### Graduate  
 - 2021 recordings: Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale)
 - 2022 textbook, data and programs: Bruce Hansen (University of Wisconsin) 
 - 2024 slides: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI)
 
-[Christopher Baum: A little bit of Stata programming goes a long
+[Julian Reif: Stata Coding Guide](https://julianreif.com/guide/)+[Christopher Baum: A little bit of Stata programming goes a long
 way](https://ideas.repec.org/p/boc/bocoec/612.html)
 
 ### Mixtape-Session
