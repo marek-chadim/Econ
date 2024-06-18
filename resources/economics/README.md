@@ -8,6 +8,6 @@ lecture
 - [The Economic Approach: Lectures on Human Capital](https://www.youtube.com/watch?v=QajILZ3S2RE&list=PL9334868E7A821E2A) Gary Becker, University of Chicago
 
 
-[CORE Econ textbooks](https://www.core-econ.org/)
+[CORE Econ](https://www.core-econ.org/)
 
 [advice](https://sites.google.com/view/econgradadvice/)
