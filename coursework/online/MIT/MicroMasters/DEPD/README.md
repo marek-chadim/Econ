@@ -1,6 +1,6 @@
 
 
-Taught by esteemed Economics faculty at MIT, including the program’s faculty directors Esther Duflo, Abhijit Banerjee, Sara Fisher Ellison, and Benjamin Olken, the program offers graduate-level courses that combine the modern tools of economics and policy design with a strong foundation in economic and mathematical principles.
+Taught by the MIT Economics faculty, the program offers graduate-level courses that combine the modern tools of economics and policy design with a strong foundation in economic and mathematical principles.
 
 
 ### Esther Duflo and Sara Ellison
