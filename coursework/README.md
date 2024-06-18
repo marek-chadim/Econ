@@ -9,8 +9,8 @@
         - [Statistics and Data Science](https://micromasters.mit.edu/ds/)
           
    - Specialization certificate
-    - [Data Science ](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) Johns Hopkins University
-    - [Machine Learning](https://www.coursera.org/account/accomplishments/specialization/T3Y6ZZBX5LHU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n) Stanford University
+        - [Data Science ](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) Johns Hopkins University
+        - [Machine Learning](https://www.coursera.org/account/accomplishments/specialization/T3Y6ZZBX5LHU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n) Stanford University
 
     - courses
         - [MIT OpenCourseWare](https://ocw.mit.edu/search/)
