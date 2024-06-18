@@ -10,4 +10,4 @@ lecture
 
 [CORE Econ](https://www.core-econ.org/)
 
-[advice](https://sites.google.com/view/econgradadvice/)
+advice [PhD](https://sites.google.com/view/econgradadvice/) + [RA](https://github.com/gentzkow/lab-manual/wiki)
