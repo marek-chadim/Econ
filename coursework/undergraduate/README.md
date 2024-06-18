@@ -1,0 +1,2 @@
+- [Code in Place](certificates/StanfordCode23.png)
+- [Elements of AI](certificates/certificate-elements-of-ai.png)
