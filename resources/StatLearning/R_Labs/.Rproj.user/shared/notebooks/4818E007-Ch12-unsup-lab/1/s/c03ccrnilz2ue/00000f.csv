@@ -1,3 +1,0 @@
-"0","pr.out$rotation = -pr.out$rotation"
-"0","pr.out$x = -pr.out$x"
-"0","biplot(pr.out, scale = 0)"

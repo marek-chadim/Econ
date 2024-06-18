@@ -1,4 +1,0 @@
-"0","Cols <- function(vec) {"
-"0","   cols <- rainbow(length(unique(vec)))"
-"0","   return(cols[as.numeric(as.factor(vec))])"
-"0"," }"

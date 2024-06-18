@@ -1,3 +1,0 @@
-"0","par(mfrow = c(1, 2))"
-"0","plot(pr.out$x[, 1:2], col = Cols(nci.labs), pch = 19,"
-"0","    xlab = ""Z1"", ylab = ""Z2"")"

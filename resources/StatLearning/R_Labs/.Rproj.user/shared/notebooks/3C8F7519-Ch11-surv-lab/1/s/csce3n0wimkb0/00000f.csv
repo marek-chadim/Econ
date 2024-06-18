@@ -1,4 +1,0 @@
-"0","library(survival)"
-"0","fit.surv <- survfit(Surv(time, status) ~ 1)"
-"0","plot(fit.surv, xlab = ""Months"","
-"0","    ylab = ""Estimated Probability of Survival"")"

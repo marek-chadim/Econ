@@ -1,2 +1,0 @@
-"0","hc.average <- hclust(dist(x), method = ""average"")"
-"0","hc.single <- hclust(dist(x), method = ""single"")"

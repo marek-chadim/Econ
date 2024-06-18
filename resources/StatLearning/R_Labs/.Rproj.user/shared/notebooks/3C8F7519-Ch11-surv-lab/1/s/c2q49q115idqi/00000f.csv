@@ -1,5 +1,0 @@
-"0","fit.posres <- survfit("
-"0","    Surv(time, status) ~ posres, data = Publication"
-"0","  )"
-"0","plot(fit.posres, xlab = ""Months"","
-"0","    ylab = ""Probability of Not Being Published"", col = 3:4)"

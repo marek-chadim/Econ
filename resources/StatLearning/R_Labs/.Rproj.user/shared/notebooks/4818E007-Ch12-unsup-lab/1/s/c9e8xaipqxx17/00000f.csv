@@ -1,4 +1,0 @@
-"0","par(mfrow = c(1, 3))"
-"0","data.dist <- dist(sd.data)"
-"0","plot(hclust(data.dist), xlab = """", sub = """", ylab = """","
-"0","    labels = nci.labs, main = ""Complete Linkage"")"

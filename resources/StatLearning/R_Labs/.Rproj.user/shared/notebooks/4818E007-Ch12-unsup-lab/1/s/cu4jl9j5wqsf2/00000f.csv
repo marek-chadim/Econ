@@ -1,3 +1,0 @@
-"0","Xhat <- Xna"
-"0","xbar <- colMeans(Xna, na.rm = TRUE)"
-"0","Xhat[index.na] <- xbar[inb]"

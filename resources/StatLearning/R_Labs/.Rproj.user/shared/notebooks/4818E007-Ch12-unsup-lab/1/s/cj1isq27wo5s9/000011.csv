@@ -1,2 +1,0 @@
-"0","plot(pr.out$x[, c(1, 3)], col = Cols(nci.labs), pch = 19,"
-"0","    xlab = ""Z1"", ylab = ""Z3"")"
