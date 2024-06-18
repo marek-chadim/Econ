@@ -2,12 +2,11 @@
 - [Bc IES Charles University](https://ies.fsv.cuni.cz/en/institute/about-us/my-url)
 - [MSc Stockholm School of Economics](https://www.hhs.se/en/education/msc/mecon/)
 - [PhD IIES Stockholm University](https://www.su.se/institute-for-international-economic-studies/)
-
 - online
- -  MIT
-   - [Data, Economics, and Development Policy](https://micromasters.mit.edu/dedp/)
-   - [Statistics and Data Science](https://micromasters.mit.edu/ds/)
-   - [OpenCourseWare](https://ocw.mit.edu/search/)
+   -  MIT
+      - [Data, Economics, and Development Policy](https://micromasters.mit.edu/dedp/)
+      - [Statistics and Data Science](https://micromasters.mit.edu/ds/)
+      - [OpenCourseWare](https://ocw.mit.edu/search/)
 - Coursera  
  - Data Science [Johns Hopkins University](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) 
  - Machine Learning [Stanford University](https://www.coursera.org/account/accomplishments/specialization/T3Y6ZZBX5LHU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n) 
