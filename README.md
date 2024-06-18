@@ -1,11 +1,10 @@
  ### coursework
  - undergaduate: Bc IES Charles University + exchange SBE Maastricht University
  - graduate: MSc Stockholm School of Economics, PhD IIES Stockholm University
-
- MITxOnline MicroMasters Programs: Data, Economics, and Development Policy (DEDP), Statistics and Data Science
+ - online: MITx MicroMasters, HarvardOnline, Coursera: Stanford, JHU, UPenn, Columbia
 
  ### perspective
- - Journal of Economic Perspectives: Econometrics and John Bates Clark Medalists + Nobel Prize Lectures
+ - Journal of Economic Perspectives: Econometrics, John Bates Clark Medalists + Nobel Prize Lectures
   
  ### resources
- - GitHub, MITxOnline + OpenCourseWare, AEA Continuing Education, NBER Summer Institute/Methods Lectures
+ - GitHub, AEA Continuing Education, NBER Summer Institute/Methods Lectures
