@@ -3,8 +3,6 @@
  - graduate: MSc Stockholm School of Economics, PhD IIES Stockholm University
  - online: MITx MicroMasters, HarvardOnline, Coursera: Stanford, JHU, UPenn, Columbia
 
- ### perspective
- - Journal of Economic Perspectives: Econometrics, John Bates Clark Medalists + Nobel Prize Lectures
-   
  ### resources
- - GitHub, AEA Continuing Education, NBER Summer Institute/Methods Lectures
+ - econometrics: GitHub, AEA Continuing Education, NBER Summer Institute/Methods Lectures
+ - economics: Journal of Economic Perspectives, John Bates Clark Medalists, Nobel Prize Lectures
