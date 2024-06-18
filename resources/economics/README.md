@@ -10,4 +10,4 @@ lecture recordings
 textbook
 [CORE Econ](https://www.core-econ.org/)
 
-advice
+advice on research writing, presentation, talk, RA + TA
