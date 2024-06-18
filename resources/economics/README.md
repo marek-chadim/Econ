@@ -7,7 +7,7 @@ lecture recordings
 - [Using Big Data to Solve Economic and Social Problems](https://opportunityinsights.org/course/) Raj Chetty and Greg Bruich, Harvard University
 - [The Economic Approach: Lectures on Human Capital](https://www.youtube.com/watch?v=QajILZ3S2RE&list=PL9334868E7A821E2A) Gary Becker, University of Chicago
 
-textbook
-[CORE Econ](https://www.core-econ.org/)
 
-advice
+[CORE Econ textbooks](https://www.core-econ.org/)
+
+[advice](https://sites.google.com/view/econgradadvice/)
