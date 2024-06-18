@@ -1,6 +1,6 @@
-<img src="HW/hist2.png" height= "50%" width="50%"> 
 
-MIT’s Department of Economics and the Abdul Latif Jameel Poverty Action Lab (J-PAL) designed the MicroMasters® program in Data, Economics, and Design of Policy (DEDP) to equip learners with both practical skills and theoretical knowledge to address pressing global challenges. Taught by esteemed Economics faculty at MIT, including the program’s faculty directors Esther Duflo, Abhijit Banerjee, Sara Fisher Ellison, and Benjamin Olken, the program offers graduate-level courses that combine the modern tools of economics and policy design with a strong foundation in economic and mathematical principles.
+
+Taught by the MIT Economics faculty, the program offers graduate-level courses that combine the modern tools of economics and policy design with a strong foundation in economic and mathematical principles.
 
 
 ### Esther Duflo and Sara Ellison
