@@ -5,6 +5,6 @@
 
  ### perspective
  - Journal of Economic Perspectives: Econometrics, John Bates Clark Medalists + Nobel Prize Lectures
-  
+   
  ### resources
  - GitHub, AEA Continuing Education, NBER Summer Institute/Methods Lectures
