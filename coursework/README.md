@@ -6,9 +6,9 @@
 - online
     - MITx MicroMasters (audit track)
         - [Data, Economics, and Development Policy](https://micromasters.mit.edu/dedp/)
-            - with OCW Behavioral/Development Economics 
+            - with OCW Behavioral/Development Economics recordings
         - [Statistics and Data Science](https://micromasters.mit.edu/ds/)
-          - with OCW Econometrics and 18.06 Linear Algebra 
+          - with OCW Econometrics notes and 18.06 Linear Algebra course
   
    - certificates
         - [Data Science](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) Johns Hopkins University
