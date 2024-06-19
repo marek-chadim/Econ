@@ -6,7 +6,7 @@
 
 course
 - [2021 Stanford GSB: Machine Learning & Causal Inference Course](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course)
-- [2018 AEA: Machine Learning and Econometrics]([https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course](https://www.aeaweb.org/conference/cont-ed/2018-webcasts)
+- [2018 AEA: Machine Learning and Econometrics](https://www.aeaweb.org/conference/cont-ed/2018-webcasts)
   -[materials](https://drive.google.com/drive/folders/1SEEOMluxBcSAb_tsDYgcLFtOQaeWtkLp)
 
 lecture 
