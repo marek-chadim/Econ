@@ -15,6 +15,10 @@ Stata [Coding Guide](https://julianreif.com/guide/) Julian Reif + [A little bit 
 way](https://ideas.repec.org/p/boc/bocoec/612.html) Christopher Baum,
 Mixtape-Session: frontier workshops organized by Scott Cunningham: <https://github.com/Mixtape-Sessions> 
 
+### prerequisites
+[Probability](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) Joe Blitzstein (Harvard University),
+[Statistics](https://www.youtube.com/playlist?list=PLUl4u3cNGP61MdtwGTqZA0MreSaDybji8) John Tsitsiklis (MIT),
+[Linear Algebra](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8) Gilbert Strang (MIT)
 
 
 
