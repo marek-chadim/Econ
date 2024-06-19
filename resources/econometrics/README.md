@@ -9,17 +9,12 @@
 - 2020 Mastering Mostly Harmless Econometrics + supplementary materials by Joshua D. Angrist, Alberto Abadie. and Christopher Walters
 - 2023 An Introduction to Statistical Learning: James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
 - 2024 Applied Causal Inference Powered by ML and AI: Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.
+  - 2018 AEA Continuing Education Webcasts: [Machine Learning and Econometrics](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) Susan Athey, Guido Imbens
 
 [Data Science for Economists](https://github.com/uo-ec607/lectures) Grant McDermott (Amazon),
 Stata [Coding Guide](https://julianreif.com/guide/) Julian Reif + [A little bit goes a long
 way](https://ideas.repec.org/p/boc/bocoec/612.html) Christopher Baum,
 Mixtape-Session: frontier workshops organized by Scott Cunningham: <https://github.com/Mixtape-Sessions> 
-
-foundation (notes in econ/coursework/online)
-- [Probability](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) Joe Blitzstein (Harvard University),
-- [Statistics](https://www.youtube.com/playlist?list=PLUl4u3cNGP61MdtwGTqZA0MreSaDybji8) John Tsitsiklis (MIT),
-- [Linear Algebra](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8) Gilbert Strang (MIT)
-
 
 
 
