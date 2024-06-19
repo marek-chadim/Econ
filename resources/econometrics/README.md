@@ -7,8 +7,8 @@
 
 ### complementary
 - AEA Continuing Education Webcasts
-  - 2018 Machine Learning and Econometrics: Susan Athey, Guido Imbens
-  - 2020 Mastering Mostly Harmless Econometrics + supplementary materials by Joshua D. Angrist, Alberto Abadie. and Christopher Walters
+  - 2018 Machine Learning: Susan Athey, Guido Imbens
+  - 2020 Mostly Harmless: Joshua D. Angrist, Alberto Abadie. and Christopher Walters
 - 2023 An Introduction to Statistical Learning: James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
 - 2024 Applied Causal Inference Powered by ML and AI: Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.
 
