@@ -6,11 +6,11 @@
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI), Michal Kolesár (Princeton)
 
 ### complementary
+- 2023 An Introduction to Statistical Learning: James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
+- 2024 Applied Causal Inference Powered by ML and AI: Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.
 - AEA Continuing Education Webcasts
   - 2018 Machine Learning: Susan Athey, Guido Imbens
   - 2020 Mostly Harmless: Joshua D. Angrist, Alberto Abadie. and Christopher Walters
-- 2023 An Introduction to Statistical Learning: James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
-- 2024 Applied Causal Inference Powered by ML and AI: Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.
 
 [Data Science for Economists](https://github.com/uo-ec607/lectures) Grant McDermott (Amazon),
 Stata [Coding Guide](https://julianreif.com/guide/) Julian Reif + [A little bit goes a long
