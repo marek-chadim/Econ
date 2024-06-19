@@ -1,5 +1,4 @@
-### ML
-<https://causalml-book.org>
+### <https://causalml-book.org>
 [2024 Stanford CS: Applied Causal Inference Powered by ML and AI Course](https://stanford-msande228.github.io/winter23/calendar)
 - [2021 Stanford GSB: Machine Learning & Causal Inference Course](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course)
 - [2018 American Economic Association: Machine Learning and Econometrics](https://www.aeaweb.org/conference/cont-ed/2018-webcasts)
