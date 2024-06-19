@@ -3,7 +3,7 @@
 - 2021 recordings: Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale)
 - 2022 textbook, data and programs: Bruce Hansen (University of Wisconsin) 
 - 2024 slides: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
-- 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI)
+- 2024 notes: Michal Kolesár (Princeton)
 
 Stata [Coding Guide](https://julianreif.com/guide/) Julian Reif + [A little bit goes a long
 way](https://ideas.repec.org/p/boc/bocoec/612.html) Christopher Baum
