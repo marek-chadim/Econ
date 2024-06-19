@@ -1,4 +1,5 @@
-<https://www.masteringmetrics.com/online-metrics-resources/> -> <https://www.mostlyharmlesseconometrics.com/> -> <https://www.statlearning.com/online-courses> -> <https://causalml-book.org>
+<https://www.masteringmetrics.com/online-metrics-resources/> -> <https://www.mostlyharmlesseconometrics.com/>
+<https://www.statlearning.com/online-courses> -> <https://causalml-book.org>
 
 ### recordnings
 
