@@ -1,5 +1,5 @@
 
-### recordings
+### lecture recordings
 
 econometrics
 - [Econometrics](https://www.youtube.com/playlist?list=PL_vQFUgojoerLH1AfiBylg_UvbAaRncKx), Christopher Conlon (NYU) 
