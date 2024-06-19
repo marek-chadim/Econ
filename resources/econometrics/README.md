@@ -3,7 +3,7 @@
 - 2021 recordings: Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale)
 - 2022 textbook, data and programs: Bruce Hansen (University of Wisconsin) 
 - 2024 slides: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
-- 2024 notes: Michal Kolesár (Princeton), Paolo Zachia & Štěpán Jurajda (CERGE-EI)
+- 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI), Michal Kolesár (Princeton)
 
 [Data Science for Economists](https://github.com/uo-ec607/lectures) Grant McDermott (Amazon),
 Stata [Coding Guide](https://julianreif.com/guide/) Julian Reif + [A little bit goes a long
