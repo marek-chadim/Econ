@@ -1,12 +1,8 @@
-
+### MostlyHarmless
 <https://www.masteringmetrics.com/online-metrics-resources> -> <https://www.mostlyharmlesseconometrics.com>
+- [2020 AEA Mastering Mostly Harmless Econometrics](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
 
-
-[2020 AEA Mastering Mostly Harmless Econometrics](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
-
-
-
-
+### MLPowered
 <https://www.statlearning.com/online-courses> -> <https://causalml-book.org> -> <https://stanford-msande228.github.io/winter23/calendar>
     
 - [2016 Becker Friedman Institute: Machine Learning. What's in it for Economics](https://www.youtube.com/playlist?list=PLSSQ1ikQ6KGhTwxYcD05SW8_ZH4xnCBoX)
