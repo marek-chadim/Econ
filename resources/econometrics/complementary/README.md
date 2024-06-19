@@ -9,7 +9,7 @@
 - [2018 NBER: Machinistas meet Randomistas. Some useful ML tools for RCT researchers, Esther Duflo](https://www.nber.org/lecture/2018-masters-lecture-esther-duflo-meet-randomistas-useful-ml-tools-empirical-researchers)
 - [2018 Becker Brown Bag: Learning From Data, Featuring Steve Levitt](https://www.youtube.com/watch?v=2EH1D3nhOGI)
 
-### [Mostly Harmless Econometrics](https://www.mostlyharmlesseconometrics.com/)
+### <https://www.mostlyharmlesseconometrics.com/>
 [AEA Mastering Mostly Harmless Econometrics](https://www.aeaweb.org/conference/cont-ed/2020-webcasts)
 - [‘Metrics Online (intro)](https://www.masteringmetrics.com/online-metrics-resources/)
 
