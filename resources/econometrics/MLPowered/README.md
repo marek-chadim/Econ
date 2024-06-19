@@ -1,4 +1,5 @@
 <https://causalml-book.org>
+
 [2024 Stanford CS: Applied Causal Inference Powered by ML and AI Course](https://stanford-msande228.github.io/winter23/calendar)
 
 ### recordings
