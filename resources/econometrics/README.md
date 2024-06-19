@@ -5,9 +5,11 @@
 - 2024 slides: Kirill Borusyak (UC Berkley) and Peter Hull (Brown)
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI)
 
-2022 [Data Science for Economists](https://github.com/uo-ec607/lectures) Grant Mcdermott (Amazon)
 Stata [Coding Guide](https://julianreif.com/guide/) Julian Reif + [A little bit goes a long
 way](https://ideas.repec.org/p/boc/bocoec/612.html) Christopher Baum
+
+2022 [Data Science for Economists](https://github.com/uo-ec607/lectures) Grant Mcdermott (Amazon)
+
 
 ### Mixtape-Session
 frontier workshops organized by Scott Cunningham: <https://github.com/Mixtape-Sessions> 
