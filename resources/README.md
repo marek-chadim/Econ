@@ -6,6 +6,7 @@ econometrics
 - [Applied Methods](https://www.youtube.com/playlist?list=PLWWcL1M3lLlojLTSVf2gGYQ_9TlPyPbiJ), Paul Goldsmith-Pinkham (Yale)
 
 foundation (notes in econ/coursework/online):
+
 [Probability](https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo) Joe Blitzstein (Harvard University), [Statistics](https://www.youtube.com/playlist?list=PLUl4u3cNGP61MdtwGTqZA0MreSaDybji8) John Tsitsiklis (MIT), [Linear Algebra](https://www.youtube.com/playlist?list=PLE7DDD91010BC51F8) Gilbert Strang (MIT)
 
 
