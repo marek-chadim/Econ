@@ -16,3 +16,4 @@ economics
 - [The Economic Approach: Lectures on Human Capital](https://www.youtube.com/watch?v=QajILZ3S2RE&list=PL9334868E7A821E2A), Gary Becker (University of Chicago)
 
 
+Pro tip: [download](https://ummy.net/en70UL/) -> upload to phone -> stream with [VLC app](https://www.videolan.org/vlc/) ->  knowledge on the go
