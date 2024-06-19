@@ -1,7 +1,7 @@
 <https://www.masteringmetrics.com/online-metrics-resources> -> <https://www.mostlyharmlesseconometrics.com>
 <https://www.statlearning.com/online-courses> -> <https://causalml-book.org>
 
-### recordnings
+### recordings
 
 [2024 Stanford CS: Applied Causal Inference Powered by ML and AI Course](https://stanford-msande228.github.io/winter23/calendar)
 - [2021 Stanford GSB: Machine Learning & Causal Inference Course](https://www.gsb.stanford.edu/faculty-research/labs-initiatives/sil/research/methods/ai-machine-learning/short-course)
