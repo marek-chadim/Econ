@@ -6,10 +6,11 @@
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI), Michal Kolesár (Princeton)
 
 ### complementary
-- 2020 Mastering Mostly Harmless Econometrics + supplementary materials by Joshua D. Angrist, Alberto Abadie. and Christopher Walters
+- AEA Continuing Education Webcasts
+  - 2018 Machine Learning and Econometrics: Susan Athey, Guido Imbens
+  - 2020 Mastering Mostly Harmless Econometrics + supplementary materials by Joshua D. Angrist, Alberto Abadie. and Christopher Walters
 - 2023 An Introduction to Statistical Learning: James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
 - 2024 Applied Causal Inference Powered by ML and AI: Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.
-  - 2018 AEA Continuing Education Webcasts: [Machine Learning and Econometrics](https://www.aeaweb.org/conference/cont-ed/2018-webcasts) Susan Athey, Guido Imbens
 
 [Data Science for Economists](https://github.com/uo-ec607/lectures) Grant McDermott (Amazon),
 Stata [Coding Guide](https://julianreif.com/guide/) Julian Reif + [A little bit goes a long
