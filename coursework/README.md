@@ -1,6 +1,7 @@
 <p align="center">
-<img src="https://github.com/marek-chadim/marek-chadim/blob/main/Bc.jpg" alt="Charles University" height="50%" width="50%">
+<img src="https://github.com/marek-chadim/marek-chadim/blob/main/Bc.jpg" height="50%" width="50%">
 </p>
+
 - [Bc IES Charles University](https://ies.fsv.cuni.cz/en/institute/about-us/my-url)
 - [MSc Stockholm School of Economics](https://www.hhs.se/en/education/msc/mecon/)
     - with PhD Econometrics at [Stockholm University](https://www.su.se/institute-for-international-economic-studies/)
