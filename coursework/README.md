@@ -6,7 +6,7 @@
 
 [MSc in Economics](https://www.hhs.se/en/education/msc/mecon/) Stockholm School of Economics
  - [Econometric Game 2024](https://wceconometrics.com/) University of Amsterdam
- - [PhD Econometrics](https://www.su.se/institute-for-international-economic-studies/) IES Stockholm University
+ - [PhD Econometrics](https://www.su.se/institute-for-international-economic-studies/) coursework at IIES Stockholm University
 
 online
 - Coursera 
