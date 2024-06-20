@@ -11,6 +11,6 @@
 
 online
 - MITxMicroMasters in [Data, Economics, and Development Policy](https://micromasters.mit.edu/dedp/) and [Statistics and Data Science](https://micromasters.mit.edu/ds/)
-- [Statistics](https://coursera.org/share/f7096b8e73d14001bdfdc59b547cb13e), [Data Science](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) Johns Hopkins; [Machine Learning](https://www.coursera.org/account/accomplishments/specialization/T3Y6ZZBX5LHU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n) Stanford; Causal Inference [UPenn](https://coursera.org/share/b7ff2f515ab40d5f9f9ec54819c04de2) and [Columbia](https://www.coursera.org/account/accomplishments/verify/SV2NYCC322FZ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
+- [Statistics](https://coursera.org/share/f7096b8e73d14001bdfdc59b547cb13e), [Data Science](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) Johns Hopkins; [Machine Learning](https://www.coursera.org/account/accomplishments/specialization/T3Y6ZZBX5LHU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n) Stanford; Causal Inference [UPenn](https://coursera.org/share/b7ff2f515ab40d5f9f9ec54819c04de2) and [Columbia U](https://www.coursera.org/account/accomplishments/verify/SV2NYCC322FZ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course)
   
 
