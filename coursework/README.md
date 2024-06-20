@@ -1,6 +1,6 @@
 
 [Bc in Economic Theory](https://ies.fsv.cuni.cz/en/institute/about-us/my-url) IES Charles University
- -  [Econometrics & Operations Research](https://curriculum.maastrichtuniversity.nl/education/bachelor/bachelor-econometrics-and-operations-research) exchange at Maastricht University
+ - [Econometrics & Operations Research](https://curriculum.maastrichtuniversity.nl/education/bachelor/bachelor-econometrics-and-operations-research) exchange at Maastricht University
  - [Code in Place 2023](https://codeinplace.stanford.edu/cip3/certificate/1bcm36) Stanford University
  - [Elements of AI](https://certificates.mooc.fi/validate/wspeomm2ier) University of Helsinki
 
