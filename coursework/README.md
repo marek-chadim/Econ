@@ -7,6 +7,8 @@
 [MSc in Economics](https://www.hhs.se/en/education/msc/mecon/) Stockholm School of Economics
  - [PhD Econometrics](https://www.su.se/institute-for-international-economic-studies/) coursework at IIES Stockholm University
  - [Econometric Game 2024](https://wceconometrics.com/) University of Amsterdam
+
+
 online
 - Coursera 
     - [Statistics](https://coursera.org/share/f7096b8e73d14001bdfdc59b547cb13e) and [Data Science](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) Johns Hopkins University
