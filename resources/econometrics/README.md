@@ -5,6 +5,10 @@
 - 2024 slides: Kirill Borusyak (UC Berkeley) and Peter Hull (Brown)
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI), Michal Kolesár (Princeton)
 
+plus MIT 14381, 14382, 14384, 14385 and 14387 from OpenCourseWare
+  - Anna Mikusheva, Victor Chernozhukov, Whitney Newey, Joshua Angrist 
+
+
 ### complementary
 - 2023 An Introduction to Statistical Learning: James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
 - 2024 Applied Causal Inference Powered by ML and AI: Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.

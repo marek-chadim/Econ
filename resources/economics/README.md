@@ -7,7 +7,8 @@ perspective
 
 
 lecture notes
-- Abhijit Banerjee and Esther Duflo (MIT), Raj Chetty (Harvard University), Gary Becker (University of Chicago)
+- recordings: Abhijit Banerjee and Esther Duflo (MIT), Raj Chetty (Harvard University), Gary Becker (University of Chicago)
+- MIT OpenCourseWare: Josh Angrist, Daron Acemoglu, Esther Duflo, Ben Olken, Robert M. Townsend, Frank Schilbach
   
 advice [PhD](https://sites.google.com/view/econgradadvice/) + [RA](https://github.com/gentzkow/lab-manual/wiki)
 
