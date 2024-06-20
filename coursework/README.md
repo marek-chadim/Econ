@@ -1,12 +1,12 @@
 
 [Bc in Economic Theory IES Charles University](https://ies.fsv.cuni.cz/en/institute/about-us/my-url)
-       -  [Econometrics & Operations Research, Maastricht University](https://curriculum.maastrichtuniversity.nl/education/bachelor/bachelor-econometrics-and-operations-research)
-       - [Code in Place 2023, Stanford University](https://codeinplace.stanford.edu/cip3/certificate/1bcm36)
-       - [Elements of AI, University of Helsinki](https://certificates.mooc.fi/validate/wspeomm2ier)
+ -  [Econometrics & Operations Research, Maastricht University](https://curriculum.maastrichtuniversity.nl/education/bachelor/bachelor-econometrics-and-operations-research)
+ - [Code in Place 2023, Stanford University](https://codeinplace.stanford.edu/cip3/certificate/1bcm36)
+ - [Elements of AI, University of Helsinki](https://certificates.mooc.fi/validate/wspeomm2ier)
 
 [MSc in Economics, Stockholm School of Economics](https://www.hhs.se/en/education/msc/mecon/)
-    - [Econometric Game 2024, University of Amsterdam](https://wceconometrics.com/)
-    - [PhD Econometrics, IIES Stockholm University](https://www.su.se/institute-for-international-economic-studies/)
+ - [Econometric Game 2024, University of Amsterdam](https://wceconometrics.com/)
+ - [PhD Econometrics, IIES Stockholm University](https://www.su.se/institute-for-international-economic-studies/)
 
 online
 - Coursera 
