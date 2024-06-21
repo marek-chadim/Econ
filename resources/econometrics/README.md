@@ -6,7 +6,7 @@
   - MIT 14381, 14382, 14384, 14385 and 14387 from OpenCourseWare
     - Anna Mikusheva, Victor Chernozhukov, Whitney Newey, Joshua Angrist 
 
- textbooks (+code*): Bruce Hansen's 2022 Econometrics*; Causal Inference Imbens & Rubin, 2015; Mostly Harmless*, Angrist & Pischke, 2008
+ textbooks (+code*): Bruce Hansen's 2022 Econometrics*; Causal Inference, Imbens & Rubin, 2015; Mostly Harmless*, Angrist & Pischke, 2008
  
 
 ### supplementary material
