@@ -1,7 +1,7 @@
 
 ### graduate course  
 - 2021 recordings: Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale)
-- 2022 textbook, data and programs: Bruce Hansen (University of Wisconsin) 
+- 2022 textbook, data, code: Bruce Hansen's Econometrics (University of Wisconsin) 
 - 2024 slides: Kirill Borusyak (UC Berkeley) and Peter Hull (Brown)
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI), Michal Kolesár (Princeton)
   - MIT 14381, 14382, 14384, 14385 and 14387 from OpenCourseWare
@@ -9,8 +9,9 @@
 
 
 ### supplementary material
-- 2023 An Introduction to Statistical Learning: James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
-- 2024 Applied Causal Inference Powered by ML and AI: Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.
+- 2023 [An Introduction to Statistical Learning](https://www.statlearning.com/online-courses): James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
+- 2024 [Causal Inference: What If](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book): Miguel Hernán MA, Robins JM
+- 2024 [Applied Causal Inference Powered by ML and AI](https://causalml-book.org): Chernozhukov, V. & Hansen, C. & Kallus, N. & Spindler, M. & Syrgkanis, V.
 - AEA Continuing Education Webcasts
   - 2018 Machine Learning: Susan Athey, Guido Imbens
   - 2020 Mostly Harmless: Joshua D. Angrist, Alberto Abadie. and Christopher Walters
