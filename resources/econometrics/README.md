@@ -1,12 +1,12 @@
 
 ### graduate course  
 - 2021 recordings: Chris Conlon (NYU) and Paul Goldsmith-Pinkham (Yale)
-- 2022 textbook, data, code: Bruce Hansen's Econometrics (University of Wisconsin) 
 - 2024 slides: Kirill Borusyak (UC Berkeley) and Peter Hull (Brown)
 - 2024 notes: Paolo Zachia & Štěpán Jurajda (CERGE-EI), Michal Kolesár (Princeton)
   - MIT 14381, 14382, 14384, 14385 and 14387 from OpenCourseWare
     - Anna Mikusheva, Victor Chernozhukov, Whitney Newey, Joshua Angrist 
 
+ textbooks (with data and code): Bruce Hansen's Econometrics +  Mostly Harmless by Joshua Angrist and Jörn-Steffen Pischke 
 
 ### supplementary material
 - 2023 [An Introduction to Statistical Learning](https://www.statlearning.com/online-courses): James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
