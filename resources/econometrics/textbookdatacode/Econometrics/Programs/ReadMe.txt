@@ -1,1 +1,0 @@
-See the file "Econometrics Programs.pdf" for a description of the files in this archive.

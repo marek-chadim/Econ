@@ -6,7 +6,8 @@
   - MIT 14381, 14382, 14384, 14385 and 14387 from OpenCourseWare
     - Anna Mikusheva, Victor Chernozhukov, Whitney Newey, Joshua Angrist 
 
- textbooks (with data and code): Bruce Hansen's Econometrics +  Mostly Harmless by Joshua Angrist and Jörn-Steffen Pischke 
+ textbooks (data and code*): Bruce Hansen's 2022 Econometrics*; Causal Inference Imbens & Rubin; Mostly Harmless*, Angrist & Pischke 2008
+ 
 
 ### supplementary material
 - 2023 [An Introduction to Statistical Learning](https://www.statlearning.com/online-courses): James, G., Witten, D. , Hastie, T., Tibshirani, R., & Taylor, J.
