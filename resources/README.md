@@ -18,5 +18,4 @@ economics
 - [Using Big Data to Solve Economic and Social Problems](https://www.youtube.com/playlist?list=PLalrHnPrv5uDe-vDW5dPxTByQoZu6P6Hq) + [Public Economics](https://rajchetty.com/research/public-economics-lectures-2nd-year-ph-d-course/), Raj Chetty (Harvard University)
 - [The Economic Approach: Lectures on Human Capital](https://www.youtube.com/watch?v=QajILZ3S2RE&list=PL9334868E7A821E2A), Gary Becker (University of Chicago)
 
-
 Pro tip: [download](https://ummy.net/en70UL/) to online storage -> upload to phone -> stream with the [VLC app](https://www.videolan.org/vlc/) ->  knowledge on the go
