@@ -17,7 +17,8 @@
   - 2020 Mostly Harmless: Joshua D. Angrist, Alberto Abadie. and Christopher Walters
 
 Stata [Coding Guide](https://julianreif.com/guide/) Julian Reif + [A little bit goes a long
-way](https://ideas.repec.org/p/boc/bocoec/612.html) Christopher Baum,
+way](https://ideas.repec.org/p/boc/bocoec/612.html) Christopher Baum
+
 Mixtape-Session: frontier workshops organized by Scott Cunningham: <https://github.com/Mixtape-Sessions> 
 
 
