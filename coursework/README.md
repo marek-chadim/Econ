@@ -10,11 +10,11 @@
 
 
 online
-- MIT [Data, Economics, and Development Policy](https://micromasters.mit.edu/dedp/) Esther Duflo, Abhijit Banerjee, Sara Fisher Ellison, and Benjamin Olken; [Applied Probability and Statistics](https://micromasters.mit.edu/ds/) John Tsitsiklis, Philippe Rigollet
-- Stanford [Statistical Learning](https://www.statlearning.com/online-courses) Hastie, T., Tibshirani, R.; [Machine Learning](https://www.coursera.org/account/accomplishments/specialization/T3Y6ZZBX5LHU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n) Andrew Ng
-- Harvard [STAT110](https://projects.iq.harvard.edu/stat110/home) Joe Blitzstein, [Causal Diagrams](https://www.harvardonline.harvard.edu/course/causal-diagrams-draw-your-assumptions-your-conclusions) Miguel Hernán
-- Department of Biostatistics Johns Hopkins [Statistics](https://coursera.org/share/f7096b8e73d14001bdfdc59b547cb13e) Brian Caffo and [Data Science](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) Roger D. Peng
-- Columbia University [Causal Inference](https://coursera.org/share/d13550a346c386cbe4e7031229da8b85), [Causal Inference 2](https://coursera.org/share/d13550a346c386cbe4e7031229da8b85) Michael Sobel
+- MIT [Data, Economics, and Development Policy](https://micromasters.mit.edu/dedp/) Duflo, Banerjee, Fisher Ellison,  Olken; [Applied Probability and Statistics](https://micromasters.mit.edu/ds/) Tsitsiklis, Rigollet
+- Stanford [Statistical Learning](https://www.statlearning.com/online-courses) Hastie, Tibshirani; [Machine Learning](https://www.coursera.org/account/accomplishments/specialization/T3Y6ZZBX5LHU?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n) Ng
+- Harvard [STAT110](https://projects.iq.harvard.edu/stat110/home) Blitzstein, [Causal Diagrams](https://www.harvardonline.harvard.edu/course/causal-diagrams-draw-your-assumptions-your-conclusions) Hernán
+- Department of Biostatistics Johns Hopkins [Statistics](https://coursera.org/share/f7096b8e73d14001bdfdc59b547cb13e) Caffo and [Data Science](https://coursera.org/share/e7b63d98d00917a1cb08d621e6447881) Peng
+- Columbia University [Causal Inference](https://coursera.org/share/d13550a346c386cbe4e7031229da8b85), [Causal Inference 2](https://coursera.org/share/d13550a346c386cbe4e7031229da8b85) Sobel
 
   
 
