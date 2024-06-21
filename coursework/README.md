@@ -5,7 +5,7 @@
  - [Elements of AI](https://certificates.mooc.fi/validate/wspeomm2ier) University of Helsinki
 
 [MSc in Economics](https://www.hhs.se/en/education/msc/mecon/) Stockholm School of Economics
- - [PhD Econometrics](https://www.su.se/institute-for-international-economic-studies/) 15ECTS IIES Stockholm University
+ - [PhD Econometrics](https://www.su.se/institute-for-international-economic-studies/) 15 ECTS IIES Stockholm University
  - [Econometric Game 2024](https://wceconometrics.com/) University of Amsterdam
 
 
