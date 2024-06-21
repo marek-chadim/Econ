@@ -1,11 +1,11 @@
 
 [Bc in Economic Theory](https://ies.fsv.cuni.cz/en/institute/about-us/my-url) IES Charles University
- - [Econometrics & Operations Research](https://curriculum.maastrichtuniversity.nl/education/bachelor/bachelor-econometrics-and-operations-research) exchange at Maastricht University
+ - [Econometrics & Operations Research](https://curriculum.maastrichtuniversity.nl/education/bachelor/bachelor-econometrics-and-operations-research) 25 ECTS Maastricht University
  - [Code in Place 2023](https://codeinplace.stanford.edu/cip3/certificate/1bcm36) Stanford University
  - [Elements of AI](https://certificates.mooc.fi/validate/wspeomm2ier) University of Helsinki
 
 [MSc in Economics](https://www.hhs.se/en/education/msc/mecon/) Stockholm School of Economics
- - [PhD Econometrics](https://www.su.se/institute-for-international-economic-studies/) coursework at IIES Stockholm University
+ - [PhD Econometrics](https://www.su.se/institute-for-international-economic-studies/) 15ECTS IIES Stockholm University
  - [Econometric Game 2024](https://wceconometrics.com/) University of Amsterdam
 
 
