@@ -8,7 +8,7 @@ clear all
 
 // set to directory where the data file is located
 cd ""
-
+cap mkdir Output
 use ak91
 tab qob, gen(q)
 

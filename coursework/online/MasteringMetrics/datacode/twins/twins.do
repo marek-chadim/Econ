@@ -28,4 +28,4 @@ ivregress 2sls lwage (educ=educt_t) age age2 female white, robust
 outreg2 using "../twins.xls", append bdec(3) sdec(3) noaster word
 
 ivregress 2sls dlwage (deduc=deduct) if first==1,noconstant robust
-outreg2 using "../Output/twins.xls", append bdec(3) sdec(3) noaster word
+outreg2 using "../twins.xls", append bdec(3) sdec(3) noaster word
